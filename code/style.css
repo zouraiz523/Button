@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background: #eee;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+button {
+  margin: 0 auto;
+  padding: 1em 3em;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  --primaryColor: #AA00FF;
+  --secondaryColor: #FF2661;
+  color: #fff;
+  background: linear-gradient(90deg,var(--primaryColor), var(--secondaryColor));
+  transition: 
+  --primaryColor 1.5s,
+  --secondaryColor 1.5s;
+}
+
+button:hover {
+  --primaryColor: #4bff87;
+  --secondaryColor: #01a181;
+}
